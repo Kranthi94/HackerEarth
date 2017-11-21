@@ -15,8 +15,6 @@ public class TenPinBowling {
 
     private static boolean isIsLastFrameSpare = false;
 
-    private static boolean isFrameFinished = false;
-
     public static void main(String[] args){
 
         int j = 0;
@@ -29,11 +27,7 @@ public class TenPinBowling {
 
                 isLastFrameStrike = true;
 
-                isFrameFinished = true;
-
             }else {
-
-                isFrameFinished = false;
 
                 j++;
 
@@ -77,8 +71,6 @@ public class TenPinBowling {
 
                             isIsLastFrameSpare = false;
                         }
-
-                        isFrameFinished = true;
                     }
                 }
             }
